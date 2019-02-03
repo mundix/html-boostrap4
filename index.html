@@ -30,14 +30,14 @@
             navbar-expand- can be availablea gain witht he -prefix -lg -md or -sm screen size range -->
             <!-- Now we gonna need the toggler element outside of the navbar-collapse element -->
 
-        <nav class="navbar navbar-light bg-light navbar-expand-sx">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sx">
             <a href=""class="navbar-brand">Academy</a>
             <!-- For make it work wee need to add data-toggle='' to the button-->
-            <button class="navbar-toggler" data-toggle="collapse">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"> 
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- mr-auto to align  to left -->
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav " >
                             <li class="nav-item">
                                 <a href="" class="nav-link">
@@ -53,7 +53,8 @@
             </div>
             
         </nav>
-
+        <!-- Its necesary to add the js to toggler menu funciton works , and still need something else  we need to add a listener  
+        a data-targer="#id-element-name"-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
