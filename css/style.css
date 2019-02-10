@@ -5,6 +5,10 @@
 .white,button.white, a.white {
     color:#fff !important;
 }
+
+.bg-gray {
+    background-color: gray;
+}
 /* Break Points */
 
 
